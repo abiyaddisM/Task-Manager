@@ -1,0 +1,14 @@
+body{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding:  10px 20px;
+  background-color: transparent;
+  color: rgba(255, 255, 255, 0.75);
+
+}
+.isDone{
+  color: #c45f5f;
+
+}
+

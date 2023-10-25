@@ -1,0 +1,4 @@
+<body [class.isDone]="isComplete">
+<h5 class="word" [textContent]="word"></h5>
+<app-like (change)="isDone($event)"></app-like>
+</body>

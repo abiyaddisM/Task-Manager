@@ -1,0 +1,10 @@
+.like{
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+  border: solid 1px;
+}
+.likeState{
+  background-color: #f34545;
+  color: #ffffff;
+}
