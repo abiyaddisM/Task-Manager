@@ -19,13 +19,15 @@ export class BodyComponent {
       }else{
         this.map.delete(key);
       }
-      console.log(this.map);
+      console.log(this.tasks.words);
 
     });
   }
   onClick(){
     this.map.forEach((value,key)=>{
       this.tasks.words=this.tasks.words.filter(item => item!=key);
+      this.tasks.refresh();
     });
   }
 }
+

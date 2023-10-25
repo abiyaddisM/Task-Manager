@@ -1,6 +1,12 @@
 <div class="body">
-  <div class="lists" *ngFor="let task of tasks.words">
+  <div class="lists" *ngFor="let task of tasks.words" >
+
     <app-lists [word]="task" (change)="ticked($event)"></app-lists>
   </div>
-  <app-button [word]="buttonText" (click)="onClick()"></app-button>
+  <div *ngIf="tasks.words.length ==0">
+    <h4>No tasks</h4>
+  </div>
+  <div class="buttonClass">
+    <app-button [word]="buttonText" (click)="onClick()"></app-button>
+  </div>
 </div>

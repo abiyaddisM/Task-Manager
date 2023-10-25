@@ -16,6 +16,7 @@ export class HeaderComponent {
   addTask(){
     console.log(this.text);
     this.tasks.words.push(this.text);
+    this.tasks.refresh();
     this.text="";
   }
 
