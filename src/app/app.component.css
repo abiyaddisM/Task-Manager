@@ -1,7 +1,6 @@
-body{
-  display: flex;
-  border-radius: 20px;
-  background-color: transparent;
-  padding: 10px;
-  margin-top: 40px;
+
+app-body{
+  /*width: 100%;*/
+  background-color: black;
+  max-width: 60px;
 }

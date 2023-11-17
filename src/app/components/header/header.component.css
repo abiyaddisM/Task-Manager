@@ -1,22 +1,28 @@
 .header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin-top: 40px;
-  background-color: #515965;
+  background-color: rgba(81, 89, 101, 0.78);
   padding: 10px;
   border: white solid 1px;
   border-radius: 10px;
 }
 .taskManagerText{
-  color: #d5665c;
+  color: rgba(213, 102, 92, 0.88);
   margin-right: 20px;
 }
 .body{
   display: flex;
+  justify-content: center;
   gap: 15px;
   align-items: center;
+  width: 100%;
 
 }
 .inputFiled{
   border-radius: 10px;
   padding: 2px 10px;
   border: solid 1px;
+  width: 100%;
 }

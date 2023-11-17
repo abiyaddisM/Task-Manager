@@ -2,19 +2,20 @@
   text-align: center;
   margin-top: 5px;
   padding:  5px;
-  background-color: #445369;
+  background-color: rgba(68, 83, 105, 0.61);
   border-radius: 10px;
   border: solid #fcf8f4 1px;
+
 }
 .lists{
-  margin: 5px 0;
+  margin: 2px 0;
   padding: 0 5px;
-  background-color: #041623;
-  border-radius: 25px;
+  background-color: rgba(4, 22, 35, 0.78);
+  border-radius: 10px;
 }
 app-button{
   margin: 20px;
 }
 .buttonClass{
-  margin-top: 15px;
+  margin-top: 10px;
 }
